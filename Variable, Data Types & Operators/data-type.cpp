@@ -11,7 +11,5 @@ int main(){
     cout << Grade << endl; 
     cout<< isSafe << endl << isWin ;
 
-
-  return 0;
-
 }
+// Primitive Data type

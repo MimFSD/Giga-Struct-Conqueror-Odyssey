@@ -6,4 +6,5 @@ int main(){
 
 }
 
-//  \n -- New line --- Moves the cursor to the start of the next line.
+//  \n -- New line --- Moves the cursor to the start of the next line
+//   << endl --- End Line 

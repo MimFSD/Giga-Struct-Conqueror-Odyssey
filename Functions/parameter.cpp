@@ -7,7 +7,7 @@ int sum(int a ,int b){
 }
 
 // Minium of 2 numbers
-int minOf2Numbers(int p ,int q){
+int minOf2Numbers(int p ,int q){   //parameters
     if (p<q){
         return p;
     }
@@ -17,6 +17,6 @@ int minOf2Numbers(int p ,int q){
 }
 int main(){
     cout<< sum(45,35) << endl ;
-    cout<< minOf2Numbers(754,369) << endl;
+    cout<< minOf2Numbers(754,369) << endl;  //arguments
     return 0 ;
 }

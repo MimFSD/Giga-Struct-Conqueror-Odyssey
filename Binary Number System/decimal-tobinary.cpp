@@ -11,6 +11,8 @@ std::string decimalToBinary(int decimal) {
         return "0";
     }
 
+
+
     // Convert decimal to binary
     while (decimal > 0) {
         binary = std::to_string(decimal % 2) + binary; // Append remainder to the front of the string

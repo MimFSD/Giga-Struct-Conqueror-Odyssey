@@ -9,7 +9,7 @@ int main(){
 
     cout << "value1 : " << a << "    value2 : "<< b << "    value3 : " << c  << endl ;
     cout << Grade << endl; 
-    cout<< isSafe << endl << isWin ;
+    cout<< isSafe << endl  ;
 
 }
 // Primitive Data type

@@ -3,8 +3,6 @@ using namespace std;
 
 int main() {
     int n;
-
-    // Asking the user for the size of the square
     cout << "Enter the size of the square: ";
     cin >> n;
 
@@ -14,7 +12,7 @@ int main() {
         for (int j = 0; j < n; j++) {
             cout << "* "; // Print an asterisk
         }
-        cout << endl; // Move to the next line after each row
+        cout << endl; 
     }
 
     return 0;

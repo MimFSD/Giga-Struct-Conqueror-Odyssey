@@ -13,7 +13,7 @@ int main() {
         for (int j = 1; j <= i; j++) {
             cout << j << " "; // Print the current number
         }
-        cout << endl; // Move to the next line after each row
+        cout << endl; 
     }
 
     return 0;

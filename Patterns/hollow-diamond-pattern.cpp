@@ -46,7 +46,7 @@ int main() {
                 cout << " "; // Print space inside the hollow part
             }
         }
-        cout << endl; // Move to the next line after each row
+        cout << endl; 
     }
 
     return 0;

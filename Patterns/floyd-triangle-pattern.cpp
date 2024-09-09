@@ -15,8 +15,7 @@ int main() {
             cout << num << " "; // Print the current number
             num++; // Increment the number for the next position
         }
-        cout << endl; // Move to the next line after each row
-    }
+        cout << endl; 
 
     return 0;
 }

@@ -3,8 +3,6 @@ using namespace std;
 
 int main() {
     int n;
-
-    // Asking the user for the number of rows in the triangle
     cout << "Enter the number of rows: ";
     cin >> n;
 

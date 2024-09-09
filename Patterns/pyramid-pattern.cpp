@@ -18,8 +18,7 @@ int main() {
         for (int k = 1; k <= 2 * i - 1; k++) {
             cout << "*"; // Print asterisks
         }
-        cout << endl; // Move to the next line after each row
-    }
+        cout << endl; 
 
     return 0;
 }

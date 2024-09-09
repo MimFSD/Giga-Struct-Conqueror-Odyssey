@@ -10,8 +10,6 @@ using namespace std;
 
 int main() {
     int n;
-
-    // Asking the user for the number of rows in the top half of the diamond
     cout << "Enter the number of rows for the upper half: ";
     cin >> n;
 

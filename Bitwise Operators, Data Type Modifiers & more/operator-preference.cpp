@@ -7,6 +7,7 @@ int main() {
     int result1 = a + b * c;
     cout << "Result of a + b * c: " << result1 << endl;
 
+
     int result2 = (a + b) * c;
     cout << "Result of (a + b) * c: " << result2 << endl;
 

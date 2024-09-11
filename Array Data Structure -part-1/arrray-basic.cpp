@@ -13,7 +13,12 @@ int main() {
     int firstNumber = numbers[0]; // Accesses the first element (10)
     int secondNumber = numbers[1]; // Accesses the second element (20)
 
-    
+    int matrix[3][3] = {
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}
+    };
+
 
 
 

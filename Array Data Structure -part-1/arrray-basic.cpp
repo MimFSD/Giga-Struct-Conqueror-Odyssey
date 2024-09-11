@@ -19,6 +19,12 @@ int main() {
     {7, 8, 9}
     };
 
+    int* dynamicArray = new int[5]; // Dynamically allocates an integer array with 5 elements.
+
+    // Free the dynamically allocated memory
+    delete[] dynamicArray;
+
+
 
 
 

@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;  // This line allows you to use names from the standard library without the 'std::' prefix
+using namespace std;  
 
 // Function that takes two integers by reference
 void swap(int &x, int &y) {

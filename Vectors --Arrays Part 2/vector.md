@@ -10,3 +10,5 @@ All Topic :
 3. Functions
 4.  Static vs Dynamic Memory allocation
 5. vector internal memory
+6. Leetcode ( used their build Function)
+7. Bitwise Operator

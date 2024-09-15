@@ -3,9 +3,8 @@
 using namespace std;
 
 int main() {
-    vector<int> vec;  // Create an empty vector
+    vector<int> vec;  //  empty vector
 
-    // Add elements to the vector
     vec.push_back(10);
     vec.push_back(20);
     vec.push_back(30);

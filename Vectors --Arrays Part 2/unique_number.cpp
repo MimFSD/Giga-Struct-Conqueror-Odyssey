@@ -14,12 +14,12 @@ int findUniqueNumber(const vector<int>& nums) {
 }
 
 int main() {
-    // Example array where every number appears twice except one
+   
     vector<int> nums = {4, 1, 2, 1, 2, 4, 5};
 
     int uniqueNumber = findUniqueNumber(nums);
 
-    cout << "The unique number is: " << uniqueNumber << endl;  // Output: 5
+    cout << "The unique number is: " << uniqueNumber << endl;    // Output: 5
 
     return 0;
 }

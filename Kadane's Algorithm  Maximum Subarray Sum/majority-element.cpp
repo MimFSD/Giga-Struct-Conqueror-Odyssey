@@ -13,7 +13,6 @@ int majorityElement(vector<int>& nums) {
         count += (num == candidate) ? 1 : -1;
     }
 
-    // Optional second pass to confirm if candidate is actually a majority element
     count = 0;
     for (int num : nums) {
         if (num == candidate) {

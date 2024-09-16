@@ -19,6 +19,6 @@ int main() {
     int arr[] = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
     int n = sizeof(arr) / sizeof(arr[0]);
 
-    cout << "Maximum sub-array sum is: " << maxSubArraySum(arr, n) << endl;
+    cout << "Maximum sub-array sum is: " << maxSubArraySum(arr, n) << endl;  //Maximum sub-array sum is: 6
     return 0;
 }

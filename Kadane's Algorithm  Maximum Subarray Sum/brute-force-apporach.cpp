@@ -1,10 +1,10 @@
 #include <iostream>
-#include <climits>  // for INT_MIN
+#include <climits>  
 
 using namespace std;
 
 int maxSubarraySum(int arr[], int n) {
-    int maxSum = INT_MIN;  // Initialize to the smallest integer
+    int maxSum = INT_MIN; 
 
     // Iterate over all possible sub-arrays
     for (int i = 0; i < n; i++) {
@@ -15,7 +15,6 @@ int maxSubarraySum(int arr[], int n) {
             for (int k = i; k <= j; k++) {
                 currentSum += arr[k];
             }
-
             // Update maxSum if the current sum is greater
             if (currentSum > maxSum) {
                 maxSum = currentSum;
@@ -31,7 +30,7 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
 
     int result = maxSubarraySum(arr, n);
-    cout << "Maximum subarray sum is: " << result << endl;
+    cout << "Maximum sub-array sum is: " << result << endl;
 
     return 0;
 }

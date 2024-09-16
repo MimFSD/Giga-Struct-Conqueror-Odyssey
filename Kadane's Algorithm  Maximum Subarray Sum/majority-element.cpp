@@ -32,7 +32,7 @@ int main() {
     int result = majorityElement(nums);
 
     if (result != -1) {
-        cout << "The majority element is: " << result << endl;
+        cout << "The majority element is: " << result << endl; //The majority element is: 4
     } else {
         cout << "No majority element exists." << endl;
     }

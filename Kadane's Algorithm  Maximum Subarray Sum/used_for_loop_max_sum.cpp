@@ -8,7 +8,7 @@ int maxSubArraySum(int arr[], int n) {
 
     // Iterate through the array starting from the second element
     for (int i = 1; i < n; i++) {
-        current_sum = max(arr[i], current_sum + arr[i]);  // Update current sub-array sum
+        current_sum = max(arr[i], current_sum + arr[i]);    // Update current sub-array sum
         max_sum = max(max_sum, current_sum);              // Update max_sum if needed
     }
 

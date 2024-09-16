@@ -6,6 +6,7 @@ int kadaneMaxSubarraySum(int arr[], int n) {
     int maxSum = arr[0];   // Initialize max sum with the first element
     int currentSum = arr[0];  // Initialize current sum as the first element
 
+
     // Iterate through the array from the second element
     for (int i = 1; i < n; i++) {
         // Update currentSum: either start a new sub-array or extend the current one

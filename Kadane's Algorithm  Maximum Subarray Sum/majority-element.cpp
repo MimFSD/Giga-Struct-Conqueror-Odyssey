@@ -5,7 +5,7 @@ using namespace std;
 int majorityElement(vector<int>& nums) {
     int candidate = 0, count = 0;
 
-    // First pass to find the candidate
+    
     for (int num : nums) {
         if (count == 0) {
             candidate = num;

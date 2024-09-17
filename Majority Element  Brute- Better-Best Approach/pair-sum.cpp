@@ -5,17 +5,13 @@ using namespace std;
 vector<pair<int, int>> pairSumBruteForce(const vector<int>& arr, int target) {
     vector<pair<int, int>> result;
     int n = arr.size();
-    
-    // Iterate through each element in the array
     for (int i = 0; i < n; ++i) {
-        // Iterate through the remaining elements
         for (int j = i + 1; j < n; ++j) {
             if (arr[i] + arr[j] == target) {
                 result.push_back({arr[i], arr[j]});
             }
         }
     }
-    
     return result;
 }
 
@@ -25,7 +21,6 @@ int main() {
     
     vector<pair<int, int>> result = pairSumBruteForce(arr, target);
     
-    
     if (!result.empty()) {
         cout << "Pairs that sum to " << target << " are:" << endl;
         for (const auto& p : result) {
@@ -34,6 +29,8 @@ int main() {
     } else {
         cout << "No pairs found with the sum " << target << endl;
     }
-    
     return 0;
 }
+// //Pairs that sum to 8 are:
+// (1, 7)
+// (3, 5)

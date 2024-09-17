@@ -10,7 +10,6 @@ vector<pair<int, int>> pairSumBruteForce(const vector<int>& arr, int target) {
     for (int i = 0; i < n; ++i) {
         // Iterate through the remaining elements
         for (int j = i + 1; j < n; ++j) {
-            // Check if the sum of the pair is equal to the target
             if (arr[i] + arr[j] == target) {
                 result.push_back({arr[i], arr[j]});
             }

@@ -14,10 +14,8 @@ int maxArea(vector<int>& height) {
     while (left < right) {
         int current_area = min(height[left], height[right]) * (right - left);
         
-        // Update the maximum area found
         max_area = max(max_area, current_area);
 
-        // Move the pointer with the shorter height
         if (height[left] < height[right]) {
             left++;
         } else {

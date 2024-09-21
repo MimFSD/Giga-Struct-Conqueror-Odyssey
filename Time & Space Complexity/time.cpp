@@ -13,7 +13,6 @@ int main() {
     // Binary search - O(log n)
     bool found = binary_search(vec.begin(), vec.end(), 3);
 
-  
     cout << "Found 3: " << boolalpha << found << endl;
 
     return 0;

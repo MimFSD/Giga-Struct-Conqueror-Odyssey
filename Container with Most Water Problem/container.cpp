@@ -7,13 +7,11 @@
 using namespace std;
 
 int maxArea(vector<int>& height) {
-    int left = 0;  // Start pointer at the beginning
-    int right = height.size() - 1;  // End pointer at the last element
+    int left = 0;  
+    int right = height.size() - 1; 
     int max_area = 0;
 
-    // Loop until the two pointers meet
     while (left < right) {
-        // Calculate the current area
         int current_area = min(height[left], height[right]) * (right - left);
         
         // Update the maximum area found

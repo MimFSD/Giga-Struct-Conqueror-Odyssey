@@ -27,7 +27,6 @@ int maxArea(vector<int>& height) {
 }
 
 int main() {
-    // Example usage
     vector<int> height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
     cout << "The maximum area of water the container can store is: " << maxArea(height) << endl;
 

@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <vector>
-#include <algorithm>  // For the min() function
+#include <algorithm> 
 
 using namespace std;
 

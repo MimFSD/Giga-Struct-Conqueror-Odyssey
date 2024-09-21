@@ -20,7 +20,7 @@ int maxAreaBruteForce(vector<int>& height) {
 }
 
 int main() {
-    vector<int> height = {1, 8, 6, 2, 3, 4, 8, 9, 7};
+    vector<int> height = {4, 3, 2, 1, 4};
     cout << "The maximum area of water the container can store (Brute Force) is: " << maxAreaBruteForce(height) << endl;
 
     return 0;

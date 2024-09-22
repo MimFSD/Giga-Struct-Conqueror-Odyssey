@@ -14,7 +14,6 @@ int maxArea(vector<int>& height) {
         int current_area = min(height[left], height[right]) * width;
         max_area = max(max_area, current_area);
         
-        // Move the pointer that points to the shorter line
         if (height[left] < height[right]) {
             left++; 
         } else {

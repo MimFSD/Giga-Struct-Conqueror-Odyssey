@@ -26,14 +26,12 @@ int maxArea(vector<int>& height) {
         }
     }
     
-    return max_area;  // Return the maximum area found
+    return max_area; 
 }
 
 int main() {
-    // Example input
     vector<int> height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
     
-    // Output the maximum area
     cout << "Maximum area: " << maxArea(height) << endl;
     
     return 0;

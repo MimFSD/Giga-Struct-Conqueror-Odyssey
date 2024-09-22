@@ -20,9 +20,9 @@ int maxArea(vector<int>& height) {
         
         // Move the pointer that points to the shorter line
         if (height[left] < height[right]) {
-            left++;  // Move left pointer to the right
+            left++; 
         } else {
-            right--; // Move right pointer to the left
+            right--; 
         }
     }
     

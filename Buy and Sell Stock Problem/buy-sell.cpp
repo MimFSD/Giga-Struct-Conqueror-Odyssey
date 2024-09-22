@@ -1,15 +1,14 @@
 #include <iostream>
 #include <vector>
-#include <algorithm> // For min and max functions
-
+#include <algorithm> 
 using namespace std;
 
 int maxProfit(vector<int>& prices) {
-    // If prices array is empty or has only one element, return 0 (no profit)
+  
     if (prices.empty()) return 0;
 
-    int min_price = prices[0];   // Initialize the minimum price with the first day's price
-    int max_profit = 0;          // Initialize maximum profit as 0
+    int min_price = prices[0];  
+    int max_profit = 0;          
 
     // Traverse the price array
     for (int i = 1; i < prices.size(); ++i) {
@@ -33,7 +32,6 @@ int main() {
     // Call the function to find the maximum profit
     int profit = maxProfit(prices);
 
-    // Output the result
     cout << "Maximum profit: " << profit << endl;
 
     return 0;

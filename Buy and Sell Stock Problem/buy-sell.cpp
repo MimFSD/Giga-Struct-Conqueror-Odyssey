@@ -21,10 +21,9 @@ int maxProfit(vector<int>& prices) {
 }
 
 int main() {
-    // Example input: prices of stocks on different days
     vector<int> prices = {7, 1, 5, 3, 6, 4};
 
-    // Call the function to find the maximum profit
+    
     int profit = maxProfit(prices);
 
     cout << "Maximum profit: " << profit << endl;

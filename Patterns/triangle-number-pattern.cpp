@@ -11,7 +11,7 @@ int main() {
     for (int i = 1; i <= n; i++) {
         // Inner loop for each column
         for (int j = 1; j <= i; j++) {
-            cout << j << " "; // Print the current number
+            cout << j << " "; 
         }
         cout << endl; 
     }

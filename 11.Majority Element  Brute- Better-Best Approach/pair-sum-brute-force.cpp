@@ -20,10 +20,13 @@ int main() {
     int target = 9;
 
     if (pairSum(arr, target)) {
-        cout << "Pair with the given sum found." << endl;
+        cout << "Pair with the given sum found." << endl; 
+     
     } else {
         cout << "No pair with the given sum found." << endl;
     }
 
     return 0;
 }
+   //  Pair found: (2, 7)
+        // Pair with the given sum found.

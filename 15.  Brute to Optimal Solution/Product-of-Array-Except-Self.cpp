@@ -11,7 +11,7 @@ vector<int> productExceptSelf(vector<int>& nums) {
         result[i] = left_product; 
         left_product *= nums[i]; 
     }
-    
+    //
     int right_product = 1;
     for (int i = n - 1; i >= 0; i--) {
         result[i] *= right_product; 

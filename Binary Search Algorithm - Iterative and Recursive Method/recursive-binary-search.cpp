@@ -22,7 +22,7 @@ int binarySearchRecursive(int arr[], int low, int high, int target) {
 int main() {
     int arr[] = {2, 3, 4, 10, 40};
     int size = sizeof(arr) / sizeof(arr[0]);
-    int target = 10;
+    int target = 3;
     int result = binarySearchRecursive(arr, 0, size - 1, target);
 
     if (result != -1) {

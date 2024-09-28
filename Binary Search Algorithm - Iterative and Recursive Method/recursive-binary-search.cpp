@@ -3,20 +3,20 @@ using namespace std;
 
 int binarySearchRecursive(int arr[], int low, int high, int target) {
     if (low <= high) {
-        int mid = low + (high - low) / 2;  // To avoid overflow
+        int mid = low + (high - low) / 2;  
 
         if (arr[mid] == target) {
-            return mid;  // Target found
+            return mid; 
         }
         else if (arr[mid] < target) {
-            return binarySearchRecursive(arr, mid + 1, high, target);  // Search in right half
+            return binarySearchRecursive(arr, mid + 1, high, target);  
         }
         else {
-            return binarySearchRecursive(arr, low, mid - 1, target);  // Search in left half
+            return binarySearchRecursive(arr, low, mid - 1, target);  
         }
     }
 
-    return -1;  // Target not found
+    return -1;  
 }
 
 int main() {

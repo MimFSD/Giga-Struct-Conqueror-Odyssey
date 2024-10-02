@@ -35,10 +35,9 @@ public:
 
 int main() {
     Solution solution;
-    vector<int> nums = {4, 5, 6, 7, 0, 1, 2};  // Example input
-    int target = 0;  // Target to search for
+    vector<int> nums = {4, 5, 6, 7, 0, 1, 2};  
 
-    int result = solution.search(nums, target);  // Call the search function
+    int result = solution.search(nums, target); 
 
     if (result != -1)
         cout << "Target found at index: " << result << endl;
